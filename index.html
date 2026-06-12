@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Peranbumani V</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    text-align:center;
+    padding:40px 20px;
+}
+
+header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-top:15px;
+    object-fit:cover;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.container{
+    width:85%;
+    margin:30px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:#60a5fa;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+footer{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+    .container{
+        grid-template-columns:1fr;
+    }
+
+    header img{
+        width:120px;
+        height:120px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Peranbumani V</h1>
+    <p>B.Tech Artificial Intelligence & Data Science Student</p>
+    <img src="profile.jpg" alt="Profile Photo">
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am Peranbumani V, a B.Tech Artificial Intelligence and Data Science
+            student at VSB Engineering College. I am passionate about web
+            development, programming, artificial intelligence, and learning
+            new technologies.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech Artificial Intelligence & Data Science</li>
+            <li>VSB Engineering College</li>
+            <li>2025 - 2029</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>C Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+            <li>Student Management System</li>
+            <li>AI-Based Mini Projects</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> anbua6591@gmail.com</p>
+        <p><strong>Phone:</strong> 9843346121</p>
+    </div>
+
+    <div class="card">
+        <h2>Career Goal</h2>
+        <p>
+            To become a skilled AI and Software Developer by continuously
+            learning emerging technologies and building innovative solutions.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Peranbumani V | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
